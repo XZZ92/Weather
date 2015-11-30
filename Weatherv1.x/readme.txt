@@ -1,0 +1,1 @@
+import the project into android studio as a non-android studio project!
