@@ -26,7 +26,6 @@
             android:text="@string/title_city"
             android:textColor="@color/text_color"
             android:textSize="20sp" />
-
         <View
             android:layout_width="match_parent"
             android:layout_height="1px"
@@ -46,5 +45,4 @@
         android:divider="@color/dark_grey"
         android:dividerHeight="1px"
         />
-
 </LinearLayout>

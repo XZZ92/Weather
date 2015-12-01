@@ -22,6 +22,7 @@ import android.widget.Toast;
 
 import com.juhe.weather.adapter.CityListAdatper;
 import com.juhe.weather.utils.HttpUtil;
+import com.juhe.weather.utils.TextSort;
 import com.loopj.android.http.RequestParams;
 import com.loopj.android.http.TextHttpResponseHandler;
 import com.thinkland.juheapi.common.JsonCallBack;
@@ -43,7 +44,6 @@ public class CityActivity extends Activity {
         initCityList();
 
 	}
-
 	private void initViews() {
 		findViewById(R.id.iv_back).setOnClickListener(new OnClickListener() {
 
@@ -104,6 +104,7 @@ public class CityActivity extends Activity {
 
         if(cityNameList!=null){                                                  //防止多次请求
            Log.i(Constant.LOG_TAG," cityNameList not null");
+            cityNameList= TextSort.TextListSort(cityNameList);
             CityListAdatper adatper = new CityListAdatper(CityActivity.this, cityNameList);
             lv_city.setAdapter(adatper);
             lv_city.setOnItemClickListener(new OnItemClickListener() {
@@ -144,6 +145,7 @@ public class CityActivity extends Activity {
                                     citySet.add(city);
                                 }
                                 cityNameList.addAll(citySet);
+                                cityNameList= TextSort.TextListSort(cityNameList);
                                 CityListAdatper adatper = new CityListAdatper(CityActivity.this, cityNameList);
                                 lv_city.setAdapter(adatper);
                                 lv_city.setOnItemClickListener(new OnItemClickListener() {

@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="C:\Users\Rudy Steiner\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="G:\Andorid Demos\Weatherv1.x\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-95050a1d9afd33e521c11b9fabf35e79f4bc75d7.jar" />
+    </item>
+    <item
         jar="G:\Andorid Demos\Weatherv1.x\app\libs\juhe_sdk_v_1_6.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -14,13 +21,6 @@
         revision="22.0.1"
         sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
         <dex dex="G:\Workspace\Weather\trunk\Weatherv1.x\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.6-1cbf4f8cc8143b8c9683c38baa4fc822ad1989d4.jar" />
-    </item>
-    <item
-        jar="C:\Users\Rudy Steiner\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="G:\Andorid Demos\Weatherv1.x\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-95050a1d9afd33e521c11b9fabf35e79f4bc75d7.jar" />
     </item>
     <item
         jar="G:\Workspace\Weather\trunk\Weatherv1.x\app\libs\juhe_sdk_v_1_6.jar"
